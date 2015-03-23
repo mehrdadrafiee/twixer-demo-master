@@ -1,0 +1,174 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background-repeat: no-repeat;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+h2, h4, h6 {
+font-family: 'Roboto Slab', serif;
+}
+
+header {
+  padding: 25px 0 25px 0;
+  overflow: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 6em;
+  color: white;
+  margin-left: 35%;
+  width: 570px;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+  color: white;
+}
+
+header nav a {
+  color: #fadb52;
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+    border-radius: 0 5px 5px 5px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.tabs a span {
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.tabs a .active {
+    background: white;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+    color: black;;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    margin: 20px 0 10px 0;
+}
+
+h3:first-child {
+    margin-top: 0;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+    color: black;
+    margin: 30px 0 0 0;
+}
+
+main .content p:first-child {
+    margin-top: 10px;
+}
+
+main .content input {
+    font-size: 1.5em;
+}
+
+
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 40px 0 20px 0;
+}
+
+footer .contact {
+  float: left;
+  width: 570px;    
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+footer .contact p:nth-child(2) {
+  color: #b33;
+  font-style: italic;
+}
+
+footer .sitemap {
+    float: right;
+    width: 285px;
+}
+
+footer ul {
+    width: 230px;
+}
+
+li {
+    list-style: none;
+}
+
+footer .sitemap .left {
+    float: left;
+}
+
+footer .sitemap .right {
+    float: right;
+}
+
+table {
+  display: block;
+}
+
+h2 {
+  font-family: 'verdana', sans-serif;
+  font-size: 50px;
+  font: white;
+}
+
+main .btn-group {
+  margin: left;
+}
